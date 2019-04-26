@@ -1791,7 +1791,7 @@ input[type="search"]::-webkit-search-decoration {
 
 .contentext {
     width: 65%;
-    color: #fff;
+    /*color: #fff;*/
     z-index: 1;
 }
 
@@ -1861,7 +1861,8 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .post-body p {
-    margin: 1em 0
+    margin: 1em;
+    text-align: left;
 }
 
 .post-body p+h1,

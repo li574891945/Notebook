@@ -6,12 +6,24 @@
                     <div class="status_list_item icon_kyubo">
                         <div class="status_user" :style = '{backgroundImage:" url("+imgUrl1+")"}' >
                             <div class="status_section" >
+                                <router-link to='/center'>
+                                    <a href="#" class="status_btn">关于前端嵌套页面在原生app（两端）方法</a>
+                                    <p class="section_p">
+                                        最近有个项目在原生APP里嵌套前端页面，下面我几说下和原生相互调取各自方法,和开封中遇到的问题..
+                                    </p>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post post-layout-list" data-aos="fade-up">
+                    <div class="status_list_item icon_kyubo">
+                        <div class="status_user" :style = '{backgroundImage:" url("+imgUrl1+")"}' >
+                            <div class="status_section" >
                                 <router-link to='/about'>
-                                <a href="#" class="status_btn">交代是不可能交代的</a>
+                                <a href="#" class="status_btn">gulp构建的项目的经验</a>
                                 <p class="section_p">
-                                    相隔上一次的更新我掰手指数一数，下意识的双腿一软，给各位小哥哥小姐姐们跪下了。
-                                    自从有了对象后，周末几乎落下了主题的进度（邪魅的笑）。一边开发新的主题，
-                                    一边收集您们给我反馈回来的"臭虫"，还有新的主题后台看见了一些大神在...
+                                    分享一下个人 gulp构建的项目 官网、后台管理、
                                 </p>
                                 </router-link>
                             </div>
@@ -58,32 +70,72 @@
                         <!--</div>-->
                     <!--</div>-->
                 <!--</div>-->
-                <!--<div class="post post-layout-list js-gallery" data-aos="fade-up">-->
-                    <!--<div class="post-album">-->
-                        <!--<div class="row content">-->
-                            <!--<div class="bg" style="background-image: url(statics/images/IMG_0150.jpg);"></div>-->
-                            <!--<div class="contentext flex-xs-middle">-->
-                                <!--<div class="album-title">-->
-                                    <!--<a href="detail.html">重构图像样式测试</a>-->
-                                <!--</div>-->
-                                <!--<h5 class="review-item-creator"><b>发布日期：</b>2017-11-13</h5>-->
-                                <!--<div class="album-content">如眼所见是一个图像样式，必须写五十左右的文字作为这个文本框的空白填充，不写也是可以的，强迫症不能容忍空白。</div>-->
-                            <!--</div>-->
-                            <!--<div class="album-thumb-width flex-xs-middle">-->
-                                <!--<div class="row album-thumb no-gutter">-->
-                                    <!--<div class="col-xs-4"><img class="thumb" src="statics/images/IMG_0150-250x250.jpg" /></div>-->
-                                    <!--<div class="col-xs-4"><img class="thumb" src="statics/images/IMG_0149-250x250.jpg" /></div>-->
-                                    <!--<div class="col-xs-4"><img class="thumb" src="statics/images/IMG_0146-250x250.jpg" /></div>-->
-                                    <!--<div class="col-xs-4"><img class="thumb" src="statics/images/IMG_0147-250x250.jpg" /></div>-->
-                                    <!--<div class="col-xs-4"><img class="thumb" src="statics/images/IMG_0148-250x250.jpg" /></div>-->
-                                    <!--<div class="col-xs-4">-->
-                                        <!--<a href="">5 pics</a>-->
-                                    <!--</div>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-                <!--</div>-->
+                <div class="post post-layout-list js-gallery" data-aos="fade-up">
+                    <div class="post-album">
+                        <router-link to='/sqDemoOne'>
+                        <div class="row content">
+                            <div class="bg" style="background-image: url(statics/images/IMG_0150.jpg);"></div>
+                            <div class="contentext flex-xs-middle">
+                                <div class="album-title">
+                                     自己写的一套完整小程序商城 第一篇（小程序）
+                                </div>
+                                <h5 class="review-item-creator"><b>发布日期：</b>2018-07-05</h5>
+                                <div class="album-content">分享一下自己写一整套商城到部署，我分开四篇 小程序、后台管理（前端部分）、后台管理（后台部分）、小程序接口</div>
+                            </div>
+                            <div class="album-thumb-width flex-xs-middle">
+                                <div class="row album-thumb no-gutter">
+                                    <div class="col-xs-4"><img class="thumb" src="../assets/1555927488(1).jpg" /></div>
+                                    <div class="col-xs-4"><img class="thumb" src="../assets/1555927346(1).jpg" /></div>
+                                    <div class="col-xs-4"><img class="thumb" src="../assets/1555927346.png" /></div>
+                                    <div class="col-xs-4"><img class="thumb" src="../assets/1555927346.jpg" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        </router-link>
+                    </div>
+                </div>
+                <div class="post post-layout-list" data-aos="fade-up">
+                    <div class="status_list_item icon_kyubo">
+                        <div class="status_user" :style = '{backgroundImage:" url("+imgUrl1+")"}' >
+                            <div class="status_section" >
+                                <router-link to='/sqDemoTwo'>
+                                    <a href="#" class="status_btn">自己写的一套完整小程序商城 第二篇 后台管理（前端部分）</a>
+                                    <p class="section_p">
+                                        分享一下自己写一整套商城到部署，我分开四篇 小程序、后台管理（前端部分）、后台管理（后台部分）、小程序接口
+                                    </p>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post post-layout-list" data-aos="fade-up">
+                    <div class="status_list_item icon_kyubo">
+                        <div class="status_user" :style = '{backgroundImage:" url("+imgUrl1+")"}' >
+                            <div class="status_section" >
+                                <router-link to='/sqDemoThree'>
+                                    <a href="#" class="status_btn">自己写的一套完整小程序商城 第三篇 后台管理（后台部分）</a>
+                                    <p class="section_p">
+                                        分享一下自己写一整套商城到部署，我分开四篇 小程序、后台管理（前端部分）、后台管理（后台部分）、小程序接口
+                                    </p>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="post post-layout-list" data-aos="fade-up">
+                    <div class="status_list_item icon_kyubo">
+                        <div class="status_user" :style = '{backgroundImage:" url("+imgUrl1+")"}' >
+                            <div class="status_section" >
+                                <router-link to='/sqDemoFour'>
+                                    <a href="#" class="status_btn">自己写的一套完整小程序商城 第四篇 小程序接口</a>
+                                    <p class="section_p">
+                                        分享一下自己写一整套商城到部署，我分开四篇 小程序、后台管理（前端部分）、后台管理（后台部分）、小程序接口
+                                    </p>
+                                </router-link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!--<div class="post post-layout-list" data-aos="fade-up">-->
                     <!--<div class="postnormal review ">-->
                         <!--<div class="post-container review-item">-->
